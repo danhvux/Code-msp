@@ -1,0 +1,9 @@
+P1DIR |= BIT0; 	ngõ ra bất định
+P1DIR &= ~BIT0; ngõ vào bất định (P1REN |= BIT0; ngõ vào mức cao)
+
+P1OUT |= BIT0; 	ngõ ra mức cao
+P1OUT &= ~BIT0; ngõ ra mức thấp
+P1IN kiểm tra trạng thái
+
+
+P2SEL &=~BIT6+BIT7; tắt chức năng dao động ngoại để sử dụng GPIO

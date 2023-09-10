@@ -1,0 +1,26 @@
+//    hienThi(a);
+
+    
+    //    if(a%100000%10000%1000%100>59){a=a+100-60;} // giay
+    //    
+    //    if(((a-10000)%10000)/100>59){a=a+10000-6000;} // phut
+    //    
+    //    if(a/10000>23){a=0;} //gio
+    //    
+    //    __delay_cycles(100000);
+    
+  }
+  
+  //    gio = 12 00 00 gio = gio +1 00 00
+  //      phut = 60 00   + 1 00
+  //        giay 60    +1
+  //          
+  //          giay++;
+  //    if(giay>59){giay=0; phut++)
+  //if(phut>59){phut=phut=0; gio++;)
+  //if(gio>23){gio=phut=giay=0;}
+  //
+  //
+  //          hien(gio+phut+giay);
+}
+
